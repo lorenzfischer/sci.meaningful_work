@@ -1,10 +1,27 @@
 #
-# In this script, I try to see if there is a connection (correlation) between discrimination against
-# minorities (e.g. homophobia) and the the state system (capitalism vs. socialism). As a proxy
-# for the state system, I use, for example, the effective tax rate, which should be a reaosnable
-# proxy for the 'size of the state'.
+# In this script, we try to find evidence for whether people mostly want
+# "meaningful" work or whether they don't really care about aspects of
+# meaning or fulfillment in their professional life. As a proxy for this
+# I look at the data of the World Value Survey and, specificially, at the 
+# answers given to the question:
+# 
+# "Here are some more aspects of a job that people say are important. 
+# Please look at them and tell me which ones you personally think are 
+# important in a job?"
+# (used until 2004, http://www.worldvaluessurvey.org/WVSDocumentationWV4.jsp)
 #
+# From the answers, we check how many people selected one of:
+#  A job respected by people in general
+#  An opportunity to use initiative
+#  A job you feel you can achieve something
+#  A job that is interesting
+#  A job that meets one's abilities
 #
+# The reasoning is, that if a person answers yes to one or more of these
+# then, fulfillment in a job is imporant. If someone does not say yes to
+# any of these, the person is likely to be happy with a mundane/repetitive
+# job.
+
 
 #install.packages("plyr")
 library(plyr)
